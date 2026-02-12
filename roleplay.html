@@ -35,10 +35,19 @@
         </div>
         <div style="background: var(--card); padding: 40px; border-radius: 20px; border: 1px solid var(--border);">
             <h2>Hikaye Anlatıcılığı</h2>
-          <p>Furkan Suskun karakteriyle Grizzly RP sokaklarında hikayemi yazmaya devam ediyorum. 5000 saatlik tecrübemle Hard RP standartlarını en üst seviyede tutarak, izleyicilere derinlikli karakter psikolojisi sunuyorum.</p>
-        <div style="text-align: center; margin-top: 15px;">
-    <img src="https://ibb.co/KzDTVpL5" alt="Furkan Suskun" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #6441a5; box-shadow: 0 0 15px rgba(100, 65, 165, 0.5);"></div>
+          <p>Furkan Suskun karakteriyle Grizzly RP sokaklarında hikayemi yazmaya devam ediyorum...</p>
+<div style="text-align: center; margin-top: 15px;">
+    <img src="https://i.hizliresim.com/8q8oyn1.jpg" alt="Furkan Suskun" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #6441a5;">
 </div>
+</div> ```
+
+### Alt Kısımdaki (Footer) Linkler İçin Son Dokunuş:
+`image_7a931c.png` görselinde en altta hala o yüklenmemiş resim sembolü (`image_79363c.jpg` yazan yer) duruyor. Onu temizlemek için:
+* Sayfanın en sonundaki `<footer>` kısmında veya onun hemen üstünde kalan o eski `<img>` etiketini tamamen sil.
+* Sosyal medya linklerini de (KICK, DISCORD vb.) `<footer>` etiketinin içine, isminin altına yapıştırırsan tertemiz bir görüntü olur.
+
+**Şu an resmin çalışıyor olması en büyük adımdı.** Bu ufak yer değişikliğini yapınca her şey milimetrik olarak yerine oturacak. Başka bir takıldığın yer var mı?
+        
     </div>
     <footer>© 2026 Furkan Suskun | Hard RP Expert</footer>
 </body>
@@ -109,6 +118,7 @@ async function checkKickStatus() {
 checkKickStatus();
 setInterval(checkKickStatus, 60000); // Her dakika kontrol et
 </script>
+
 
 
 
